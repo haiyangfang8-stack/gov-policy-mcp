@@ -71,11 +71,13 @@ npm run build
 - Undocumented endpoint: if it breaks, the mapping lives in `src/index.ts` (`SEARCH` + the
   `PolicyRecord` mapping) and is a small fix.
 
+## Related
+
+- [**ggzy-mcp**](https://github.com/haiyangfang8-stack/ggzy-mcp) — same pattern, applied to the national tender / procurement platform (全国公共资源交易平台).
+
 ## Why this exists
 
-Part of a small set of adapters that give AI agents access to Chinese data sources
-that have no API. See also [ggzy-mcp](https://github.com/haiyangfang8-stack/ggzy-mcp)
-for tender announcements.
+Part of a small set of adapters that give AI agents access to Chinese data sources that have no API.
 
 ## License
 
