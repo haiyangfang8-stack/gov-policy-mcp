@@ -1,0 +1,39 @@
+{
+  "name": "gov-policy-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for China's State Council policy document library - search official policy documents from AI agents",
+  "type": "module",
+  "bin": {
+    "gov-policy-mcp": "dist/index.js"
+  },
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build",
+    "start": "node dist/index.js"
+  },
+  "keywords": [
+    "mcp",
+    "policy",
+    "china",
+    "gov",
+    "regulation",
+    "ai-agent",
+    "model-context-protocol"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.0",
+    "@types/node": "^22.0.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
